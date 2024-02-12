@@ -84,8 +84,8 @@ WSGI_APPLICATION = "dummy.wsgi.application"
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "dummydata",
-        'USER': "postgres",
+        'NAME': "DummyData16",
+        'USER': "dummydata",
         'HOST': "dummydata.ch26qock604f.eu-north-1.rds.amazonaws.com",
         'PASSWORD': 'admin123',
         "PORT": 5432,
