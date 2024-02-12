@@ -85,7 +85,7 @@ DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': "DummyData16",
-        'USER': "dummydata",
+        'USER': "postgres",
         'HOST': "localhost",
         'PASSWORD': 'admin123',
         "PORT": 5432,
@@ -136,12 +136,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 
-AWS_ACCESS_KEY_ID = 'AKIAVRUVTT5QADUENYXM'
-AWS_SECRET_ACCESS_KEY= 'a3xbioCap4SxQZrEWNNQMn1PUzO8od5ymBycKnvz'
-AWS_STORAGE_BUCKET_NAME='dummydatabucket16'
-AWS_S3_SIGNATURE_NAME='s3v4'
-AWS_S3_REGION_NAME='eu-north-1'
-AWS_S3_FILE_OVERWRITE=False
-AWS_DEFAULT_ACT=None
-AWS_S3_VERIFY= True
-DEFAULT_FILE_STORAGE= 'storages.backends.s3boto3.S3Boto3Storage'
+
